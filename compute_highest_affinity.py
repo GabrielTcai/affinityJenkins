@@ -13,7 +13,7 @@ def highest_affinity(site_list, user_list, time_list):
     pair_dic = {}
     max_pair = ()
     max_num = 0
-
+    '''
     if max_num == -1:
         max_num = 100
         max_num = 100
@@ -41,6 +41,7 @@ def highest_affinity(site_list, user_list, time_list):
         max_num = 100
         max_num = 100
         max_num = 100
+    '''
 
     for ind in range(len(user_list)):
         #if user_dic.has_key(user_list[ind]):
